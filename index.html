@@ -17,9 +17,9 @@
 
 <body>
     <div class="collapse" id="navbar-responsive">
-        <a href="#">Inicio</a>
-        <a href="#">Planes</a>
-        <a href="#">Contáctenos</a>
+        <a class="nav-link" href="#cuerpo">Inicio</a>
+        <a class="nav-link" href="#planes">Planes</a>
+        <a class="nav-link" href="#contacto">Contáctenos</a>
     </div>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
@@ -52,23 +52,18 @@
     </nav>
     <div id="cuerpo" class="contaniner">
         <div class="row">
-            <div class="col">
-                <h1>Hola</h1>
-            </div>
-            <div class="col">
-                <h1>Hola</h1>
-            </div>
+            <img src="img/landing.jpg" class="img-fluid" alt="" srcset="">
         </div>
     </div>
-    <div id="planes" class="container">
+    <div id="planes" class="container col-12">
         <div class="row">
             <div class="col-12">
-                <h1 class="text-center">Planes</h1>
+                <h1 class="text-center my-2">Planes</h1>
             </div>
         </div>
         <div class="row">
-            <div class="col-4">
-                <div class="card" style="width: 18rem;">
+            <div class="col-sm-12 col-md-12 col-lg-4 col-xl-4">
+                <div class="card ">
                     <div class="card-body">
                         <i class="fas fa-code fa-6x "></i>
                         <br><br>
@@ -88,8 +83,8 @@
                     </div>
                 </div>
             </div>
-            <div class="col-4">
-                <div class="card" style="width: 18rem;">
+            <div class="col-sm-12 col-md-12 col-lg-4 col-xl-4">
+                <div class="card ">
                     <div class="card-body">
                         <i class="far fa-file-code fa-7x fa-align-justify"></i>
                         <br><br>
@@ -111,8 +106,8 @@
                     </div>
                 </div>
             </div>
-            <div class="col-4">
-                <div class="card" style="width: 18rem;">
+            <div class="col-sm-12 col-md-12 col-lg-4 col-xl-4">
+                <div class="card ">
                     <div class="card-body">
                         <i class="fas fa-laptop-code fa-7x fa-align-justify"></i>
                         <br><br>
@@ -134,13 +129,35 @@
             </div>
         </div>
     </div>
-
+    <div class="container">
+        <section class="contenedor  " id="expertos">
+            <h2 class="subtitulo">Experiencia en:</h2>
+            <section class="experts ">
+                <div class="cont-expert">
+                    <img src="img/Startup_Isometric.svg" alt="">
+                    <h4 class="n-experts text-center">Crea, imagina y realiza tus proyectos con nosotros</h4>
+                </div>
+                <div class="cont-expert">
+                    <img src="img/Data Arranging_Outline.svg" alt="">
+                    <h4 class="n-experts text-center">Capacidad de ordenar tu espacio de trabajo de distintos proyectos</h4>
+                </div>
+                <div class="cont-expert ">
+                    <img src="img/Team work_Two Color.svg" alt="">
+                    <h4 class="n-experts text-center">La oportunidad de invitar a colaboradores en tus proyectos</h4>
+                </div>
+                <div class="cont-expert ">
+                    <img src="img/Notifications_Isometric.svg" alt="">
+                    <h4 class="n-experts text-center">Notificaciones cuando sean revisados tus proyectos por clientes</h4>
+                </div>
+            </section>
+        </section>
+    </div>
 
     <footer id="contacto">
         <div class="contenedor footer-content">
             <div class="contact-us">
                 <h1>Codling <i class="logo-icon fas fa-terminal"></i></h1>
-                <p class="brand">Realiza y administra tus proyectos con nosotros</p>
+                <p class="brand">Codifica y administra tus proyectos con nosotros</p>
             </div>
             <div class="social-media">
                 <a href="" target="_blank" class="social-media-icon">
